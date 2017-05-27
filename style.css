@@ -1,10 +1,7 @@
 html, body { 
   height: 100%;
-  width: 100%;
-  position: absolute;
-  background-image: url('http://imageshack.com/a/img905/2204/RaTH57.jpg');
-  background-position: top;
-  background-repeat: repeat-x;
+  background-image: url('https://images.unsplash.com/photo-1483104879057-379b6c2fe5a2?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=');
+  background-size: 100%;
   background-color: black;
   z-index: -2;
 }
@@ -12,9 +9,6 @@ html, body {
 #display {
 	color: white;
 	font-size: 2.9em;
-	top: 10px;
-  border-bottom: thin solid;
-  padding-bottom: 20px;
   opacity: 0.80;
 }
 
@@ -24,6 +18,7 @@ html, body {
   opacity: 0.5;
 	margin: 0 auto;
 }
+
 #content {
   height: 20em;
 } 
@@ -31,7 +26,7 @@ html, body {
 h1, p {
   max-width: 30em;
   color: white;
-  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  font-family: Georgia, Garamond, Times, serif;
   letter-spacing: 0.1em;
   text-align: center;
   margin: 40px auto;
@@ -40,12 +35,12 @@ h1, p {
   font-size: 2em;
   font-variant: small-caps;
 }
+
 .container {
   text-align: center;
 }
 
 #btn {
-  outline: none;
 	text-decoration: none;
   opacity: 0.6;
   background-color: black;
